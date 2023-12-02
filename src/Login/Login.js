@@ -6,9 +6,8 @@ const Login = () => {
   const [password, setPassword] = useState('');
 
   const mockLogin = async () => {
-    // Simulate a login request (replace this with actual API call)
-    console.log(`Logging in with username: ${username} and password: ${password}`);
-    // Reset the form after processing the login request
+    // Actual API call here
+    console.log(`Username: ${username} and Password: ${password}`);
     setUsername('');
     setPassword('');
   };
